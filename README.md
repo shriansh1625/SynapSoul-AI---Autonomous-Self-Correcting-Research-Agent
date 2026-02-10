@@ -11,7 +11,7 @@
 
 **SynapSoul** is a next-generation AI agent that doesn't just "guess" answers—it **researches, critiques, and refines** them. Built on a Dockerized micro-architecture, it features long-term vector memory to cure "LLM Amnesia" and a self-healing feedback loop to eliminate hallucinations.
 
-[🔴 Live Demo](https://huggingface.co/spaces/YourUsername/SynapSoul-AI) · [🐞 Report Bug](https://github.com/YourUsername/SynapSoul/issues) · [📜 Request Feature](https://github.com/YourUsername/SynapSoul/issues)
+[🔴 Live Demo](https://synapsoulai.streamlit.app/) · [🐞 Report Bug](https://github.com/YourUsername/SynapSoul/issues) · [📜 Request Feature](https://github.com/YourUsername/SynapSoul/issues)
 
 </div>
 
@@ -35,7 +35,7 @@ SynapSoul introduces a **Dual-Agent Architecture** to solve this:
 
 | Component | Technology | Description |
 | :--- | :--- | :--- |
-| **LLM Engine** | `Google Gemini 1.5` | The core reasoning brain processing 1M+ tokens context. |
+| **LLM Engine** | `Google Gemini 3` | The core reasoning brain processing 1M+ tokens context. |
 | **Orchestrator** | `LangGraph` | Manages the cyclic state between Researcher & Critic agents. |
 | **Memory** | `FAISS` + `HuggingFace` | Local vector database for long-term semantic recall. |
 | **Search** | `Tavily API` | specialized search engine optimized for AI agents. |
